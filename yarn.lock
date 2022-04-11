@@ -799,6 +799,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bug-pnp-playwright-esm@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bug-pnp-playwright-esm@workspace:."
+  dependencies:
+    "@playwright/test": ^1.20.2
+  languageName: unknown
+  linkType: soft
+
 "call-bind@npm:^1.0.0":
   version: 1.0.2
   resolution: "call-bind@npm:1.0.2"
@@ -1473,14 +1481,6 @@ __metadata:
   checksum: 9497e08a6c2d850630ba7c8d3738fd36c9db1af7ee8b8c2d4b664e450807a280936dfa1489deb60e6943b968bedd58c9aa93def25a765579d745ea44467fc47f
   languageName: node
   linkType: hard
-
-"pnp-with-playwright@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "pnp-with-playwright@workspace:."
-  dependencies:
-    "@playwright/test": ^1.20.2
-  languageName: unknown
-  linkType: soft
 
 "pretty-format@npm:^27.2.5, pretty-format@npm:^27.5.1":
   version: 27.5.1
