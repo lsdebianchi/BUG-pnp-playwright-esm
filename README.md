@@ -1,14 +1,9 @@
-# BUG when using pnp with esm loder and playwright
+# BUG when using pnp with esm loader and playwright
 
 ## How to reporduce the bug.
 
-Clone this repo.
-Run:
-`yarn && yarn test`
-Watch the test runner getting stuck.
-In the file `.yarnrc.yml`, set `pnpEnableEsmLoader` to `false`.
-
-Run:
-`yarn && yarn test`
-
-Now everything works.
+1. Clone this repo.
+1. Run `yarn && yarn test`
+1. Watch playwright getting stuck.
+1. In the file `.yarnrc.yml`, set `pnpEnableEsmLoader` to `false`.
+1. Run `yarn && yarn test`. Now everything works.
